@@ -3,6 +3,13 @@
 # Requires ripgrep
 # I use it for editing dotfiles in my ~/.config directory
 
+
+
+# this script is particularly useful, running it will present you with a rofi box, asking for a filename, now the current script pulls from $HOME/.config/, but 
+# you can set it up anyway you'd like.  So the rofi script is going to pull any file you call for within the .config directory.  This was written specifically to
+# edit conf files and the like so it does ignore certain file types.  But enter your .conf location into the rofi prompt and it will auto vim edit that file.
+
+
 # Directory to search in
 dir="/home/nylar/.config"
 # Ignore files or directories relative to the directory you want to search
